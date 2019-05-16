@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<node name="/">
+  <interface name="org.freedesktop.Testdbus.Base">
+    <method name="TestInt">
+      <arg name="ret" type="i" direction="out" />
+    </method>
+    <method name="TestStr">
+      <arg name="arg0" type="i" direction="in" />
+      <arg name="ret" type="s" direction="out" />
+    </method>
+    <method name="TestStructs">
+      <arg name="ret" type="a(si)" direction="out" />
+    </method>
+  </interface>
+</node>

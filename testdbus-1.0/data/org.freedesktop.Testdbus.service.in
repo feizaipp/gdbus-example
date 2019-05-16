@@ -1,0 +1,7 @@
+[D-BUS Service]
+Name=org.freedesktop.Testdbus
+Exec=@testdbusprivdir@/testdbusd
+User=root
+SystemdService=testdbus.service
+StandardOutput=syslog
+StandardError=syslog
